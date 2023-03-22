@@ -8,7 +8,7 @@ use Espo\ORM\Query\Part\WhereItem;
 use Espo\ORM\Query\Part\Where\OrGroup;
 use Espo\ORM\Entity;
 
-class Lead implements WhereBuilder
+class RealEstateProperty implements WhereBuilder
 {
     public function build(Entity $entity): ?WhereItem
     {
